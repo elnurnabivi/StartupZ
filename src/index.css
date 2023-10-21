@@ -1,13 +1,133 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: circular-std;
+  src: url('/public/fonts/CircularStd-Book.ttf');
+  font-weight: 300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: circular-std;
+  src: url('/public/fonts/CircularStd-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: circular-std;
+  src: url('/public/fonts/CircularStd-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('/public/fonts/Roboto-Regular.ttf');
+  font-weight: 400;
+}
+
+:root {
+  --yellow: #FFC351;
+  --orange: #FB8958;
+  --light-blue: #8BB5C9;
+  --sky-blue: #46B8C8;
+  --dark-blue: #00A0B6;
+  --olive: #A9BC87;
+  --purple: #8B60D3;
+  --shadow: rgba(187, 169, 142, 0.15);
+  --light-grey: #FBFAFA;
+  --grey: #F3F3F3;
+  --dark-grey: #939393;
+  --metal: #3D4F5C;
+  --dark: #141416;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--metal);
+  font-family: circular-std, sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  color: var(--orange)
+}
+
+.global-padding {
+  padding-right: 120px!important;
+  padding-left: 120px!important;
+}
+
+@media screen and (min-width: 2050px) {
+  .global-padding {
+    padding-left: 20vw!important;
+    padding-right: 20vw!important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .global-padding {
+    padding-right: 100px!important;
+    padding-left: 100px!important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 65px;
+    line-height: 65px;
+  }
+  
+  h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .global-padding {
+    padding-right: 50px!important;
+    padding-left: 50px!important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .global-padding {
+    padding-right: 20px!important;
+    padding-left: 20px!important;
+  }
 }

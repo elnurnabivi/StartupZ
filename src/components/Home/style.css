@@ -1,0 +1,113 @@
+.home__problems {
+  height: 350px;
+  position: relative;
+}
+
+.home__problems--text {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__problems--text p {
+  color: var(--orange);
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  padding: 0 35px;
+}
+
+.home__problems--text svg {
+  margin-bottom: 20px;
+  min-width: 59px;
+  min-height: 66px;
+}
+
+.home__info {
+  height: 500px;
+  position: relative;
+}
+
+.home__info div {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.home__info p {
+  color: var(--orange);
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  padding: 0 35px;
+  text-align: center;
+  max-width: 950px;
+}
+
+.home__info svg {
+  margin-top: -10px;
+  min-width: 59px;
+  min-height: 66px;
+}
+
+@media screen and (max-width: 1200px) {
+  .home__info p {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home__problems--text p {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .home__info p {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__problems--text p {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .home__problems--text svg {
+    height: 50px;
+  }
+  .home__info div {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home__info p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .home__info {
+    height: 400px;
+  }
+  .home__info svg {
+    height: 50px;
+  }
+}
