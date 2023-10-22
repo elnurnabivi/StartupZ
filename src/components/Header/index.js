@@ -23,11 +23,8 @@ const Header = () => {
     const checkMobileView = () => {
       setIsMobileView(window.innerWidth < 768);
     };
-
     window.addEventListener("resize", checkMobileView);
-
     checkMobileView();
-
     return () => {
       window.removeEventListener("resize", checkMobileView);
     };
