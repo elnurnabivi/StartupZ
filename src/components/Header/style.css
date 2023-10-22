@@ -1,3 +1,6 @@
+/* style.css */
+
+/* Styles for the placeholder element */
 .placeholder {
   display: none;
 }
@@ -7,6 +10,7 @@
   height: 100px;
 }
 
+/* Styles for the header container */
 .header {
   z-index: 5;
   position: relative;
@@ -20,9 +24,9 @@
 .header--fixed {
   position: fixed;
   top: 0;
-
 }
 
+/* Styles for the header navigation */
 .header__nav {
   display: flex;
   margin: auto 0;
@@ -40,6 +44,16 @@
 .header__logo {
   width: 200px;
   height: 48px;
+}
+
+.header__menu-container {
+  display: none;
+}
+
+.header__button {
+  margin-top: 5px;
+  background-color: transparent;
+  border: none;
 }
 
 .header__links-container {
@@ -70,12 +84,6 @@
   margin: 0;
 }
 
-.header__button {
-  margin-top: 5px;
-  background-color: transparent;
-  border: none;
-}
-
 .header__link {
   display: block;
   text-decoration: none;
@@ -87,8 +95,25 @@
   color: var(--metal);
 }
 
+@media screen and (max-width: 768px) {
+  .header__button {
+    display: block;
+  }
 
-@media screen and (min-width: 1040) {
+  .header__menu-container {
+    display: block;
+  }
+
+  .header__links-container {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .header__link {
+    color: var(--metal);
+  }
+}
+
+@media screen and (min-width: 769px) {
   .header__button {
     display: none;
   }
@@ -99,10 +124,12 @@
     flex-direction: row;
     min-height: auto;
     transform: none;
+    background-color: white;
   }
 
   .header__link {
     width: auto;
     margin: auto;
+    color: var(--metal);
   }
 }
