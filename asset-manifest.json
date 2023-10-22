@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/StartupZ/static/css/main.eba9fb77.css",
+    "main.js": "/StartupZ/static/js/main.17d3a48b.js",
+    "static/media/Roboto-Regular.ttf": "/StartupZ/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/CircularStd-Medium.ttf": "/StartupZ/static/media/CircularStd-Medium.6fb73f93b89db3da0c34.ttf",
+    "static/media/CircularStd-Bold.ttf": "/StartupZ/static/media/CircularStd-Bold.544334209f41ff0b1ebb.ttf",
+    "static/media/CircularStd-Book.ttf": "/StartupZ/static/media/CircularStd-Book.56e46dd26062a08cfc7c.ttf",
+    "index.html": "/StartupZ/index.html",
+    "main.eba9fb77.css.map": "/StartupZ/static/css/main.eba9fb77.css.map",
+    "main.17d3a48b.js.map": "/StartupZ/static/js/main.17d3a48b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eba9fb77.css",
+    "static/js/main.17d3a48b.js"
+  ]
+}
