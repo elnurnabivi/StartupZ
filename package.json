@@ -1,8 +1,8 @@
 {
-  "homepage": "http://elnurnabivi.github.io/StartupZ",
+  "homepage": "http://elnurnabivi.github.io/startupz",
   "name": "startupz-app",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,7 +16,8 @@
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
     "react-simple-chatbot": "^0.6.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^1.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
