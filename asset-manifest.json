@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/StartupZ/static/css/main.eba9fb77.css",
-    "main.js": "/StartupZ/static/js/main.85a36fc3.js",
-    "static/media/Roboto-Regular.ttf": "/StartupZ/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/CircularStd-Medium.ttf": "/StartupZ/static/media/CircularStd-Medium.6fb73f93b89db3da0c34.ttf",
-    "static/media/CircularStd-Bold.ttf": "/StartupZ/static/media/CircularStd-Bold.544334209f41ff0b1ebb.ttf",
-    "static/media/CircularStd-Book.ttf": "/StartupZ/static/media/CircularStd-Book.56e46dd26062a08cfc7c.ttf",
-    "index.html": "/StartupZ/index.html",
-    "main.eba9fb77.css.map": "/StartupZ/static/css/main.eba9fb77.css.map",
-    "main.85a36fc3.js.map": "/StartupZ/static/js/main.85a36fc3.js.map"
+    "main.css": "/startupz/static/css/main.f97f1670.css",
+    "main.js": "/startupz/static/js/main.c7a18bf2.js",
+    "static/js/787.6dff38a1.chunk.js": "/startupz/static/js/787.6dff38a1.chunk.js",
+    "static/media/Roboto-Regular.ttf": "/startupz/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/CircularStd-Medium.ttf": "/startupz/static/media/CircularStd-Medium.6fb73f93b89db3da0c34.ttf",
+    "static/media/CircularStd-Bold.ttf": "/startupz/static/media/CircularStd-Bold.544334209f41ff0b1ebb.ttf",
+    "static/media/CircularStd-Book.ttf": "/startupz/static/media/CircularStd-Book.56e46dd26062a08cfc7c.ttf",
+    "index.html": "/startupz/index.html",
+    "main.f97f1670.css.map": "/startupz/static/css/main.f97f1670.css.map",
+    "main.c7a18bf2.js.map": "/startupz/static/js/main.c7a18bf2.js.map",
+    "787.6dff38a1.chunk.js.map": "/startupz/static/js/787.6dff38a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eba9fb77.css",
-    "static/js/main.85a36fc3.js"
+    "static/css/main.f97f1670.css",
+    "static/js/main.c7a18bf2.js"
   ]
 }
